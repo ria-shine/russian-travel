@@ -1,0 +1,24 @@
+.header {
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+ 
+}
+
+.lang-link {
+  color: #FFFFFF;
+  margin: 0;
+  margin-left: 18px;
+}
+
+.lang-link_text-decoration_underline {
+  text-decoration: none;
+}

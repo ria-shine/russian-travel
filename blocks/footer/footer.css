@@ -1,0 +1,29 @@
+.footer {
+  max-width: 1184px;
+  width: 100%;
+  display: flex;
+  column-gap: 18px;
+  margin-bottom: 24px;
+  
+}
+.footer__link {
+  color: #FFFFFF;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__copyright {
+  margin: 0;
+  flex-basis: 740px;
+  text-align: end;
+  color: #FFFFFF;
+  line-height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+}
