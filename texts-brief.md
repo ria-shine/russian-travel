@@ -39,3 +39,16 @@ https://rasp.yandex.ru
 https://calendar.yandex.ru
 5. Путешествия:
 https://travel.yandex.ru
+
+@media screen and (min-width: 1280px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+}
+
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  
+}

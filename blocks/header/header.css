@@ -5,20 +5,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: -36px;
+  margin-top: 28px;
 }
 
-.header__logo {
-  width: 176px;
-  height: 52px;
- 
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    margin-bottom: -40px;
+
+  }
+  
 }
 
-.lang-link {
-  color: #FFFFFF;
-  margin: 0;
-  margin-left: 18px;
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    margin-bottom: -40px;
+  }
+
 }
 
-.lang-link_text-decoration_underline {
-  text-decoration: none;
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    margin-bottom: -16px;
+  }
 }
