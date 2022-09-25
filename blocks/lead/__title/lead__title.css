@@ -6,7 +6,8 @@
   font-size: 96px;
   text-align: center;
   margin-bottom: 32px;
-  width: 56.25%;
+  width: 73.5%;
+  overflow-wrap: break-word;
 }
 
 @media screen and (max-width: 1024px) {
