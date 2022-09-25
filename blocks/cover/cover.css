@@ -8,19 +8,19 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100vw;
+    width: 100%;
   }
 }
 
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100vw;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    width: 100vw;
+    width: 100%;
   }
 }

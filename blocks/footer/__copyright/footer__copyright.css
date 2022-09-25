@@ -6,6 +6,8 @@
   line-height: 1;
   font-weight: 400;
   font-size: 14px;
+  justify-self: end;
+  
 }
 
 @media screen and (max-width: 320px) {

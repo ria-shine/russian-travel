@@ -7,7 +7,7 @@
   font-weight: 900;
   font-size: 72px;
   text-align: center;
-  margin-bottom: 32px;   
+  margin-bottom: 32px;  
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,7 +18,9 @@
 
 @media screen and (max-width: 768px) {
   .cover__title {
-   width: 73%;    
+   width: 73%;   
+   font-size: 50px;
+   overflow-wrap: break-word;
  }
 }
 

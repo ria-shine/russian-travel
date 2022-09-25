@@ -5,13 +5,14 @@
 
 @media screen and (max-width: 1024px) {  
   .place__text {
-    max-width: 456px;
+    /* max-width: 456px; */
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {  
   .place__text {
-    max-width: 352px;
+    width: 100%;
     font-size: 16px;
   }
 }

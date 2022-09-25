@@ -1,11 +1,12 @@
-.place__website__link {
+.place__link {
   margin: 0;
   color: #FFFFFF;
   line-height: 22px;
   font-weight: 400;
   font-size: 18px;
+  word-break: break-all;
 }
 
-.place__website__link:hover {
+.place__link:hover {
   opacity: 0.8;
 }

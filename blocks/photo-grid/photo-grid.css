@@ -26,12 +26,22 @@
   }
 }
 
+@media screen and (max-width: 378px) {
+  .photo-grid {
+    width: 93.75%;  
+    display: grid;
+    grid-template-columns: minmax(min-content, 352px);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 288px);
-    grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 12px;
   }  
 }

@@ -1,7 +1,8 @@
-.place__text__paragraph {
+.place__paragraph {
   margin: 0;
   color: #FFFFFF;
   line-height: 163%;
   font-weight: 400;
   font-size: 18px;
+  word-break: break-all;
 }

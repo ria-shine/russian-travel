@@ -6,8 +6,7 @@
   font-size: 96px;
   text-align: center;
   margin-bottom: 32px;
-  /* max-width: 720px; */
-  width: 56.25vw;
+  width: 56.25%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,16 +14,18 @@
     width: 77.5%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .lead__title {
     width: 93.75%;
+    font-size: 54px;
+    overflow-wrap: break-word;
   }
 }
 
-
 @media screen and (max-width: 320px) {
   .lead__title {
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
     margin-bottom:16px;
     width: 90%;
