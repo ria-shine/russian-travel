@@ -4,3 +4,5 @@
 
 В проекте задействована адаптивная верстка, grid-layout, структура по БЭМ.
 Проект выполнен с помощью HTML и CSS.
+
+Проект на GitHub Pages: https://ria-shine.github.io/russian-travel/
