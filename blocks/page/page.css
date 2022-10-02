@@ -64,6 +64,14 @@
     outline: 1px solid red;
   }
 
+  h2 {
+    outline: 1px solid red;
+  }
+
   p {
     outline: 1px solid red;
+  }
+
+  article {
+    outline: 1px solid green;
   } */

@@ -4,5 +4,12 @@
   line-height: 163%;
   font-weight: 400;
   font-size: 18px;
-  word-break: break-all;
+}
+
+@media screen and (max-width: 320px) {
+
+  .place__paragraph {
+    font-size: 16px;
+
+  }
 }

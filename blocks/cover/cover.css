@@ -1,26 +1,19 @@
 .cover {
-  width: 92.5%;
+  aspect-ratio: 16/10;
+  position: relative;
   background-image: url(../../images/cover-trains.jpg);
   object-fit: cover;
-  background-size:cover;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 0 48px;
+}
 
- }
 
 @media screen and (max-width: 1024px) {
-  .cover {
-    width: 100%;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .cover {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    width: 100%;
-  }
+  .cover { 
+   margin: 0;
+ }
 }

@@ -1,19 +1,9 @@
 .footer__copyright {
-  margin: 0;
-  text-align: end;
-  flex-basis: 780px;
   color: #FFFFFF;
   line-height: 1;
   font-weight: 400;
   font-size: 14px;
-  justify-self: end;
-  
+  margin: 0;
 }
 
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    text-align: start;
-    flex-basis: 14px;
-  }
-}
 
