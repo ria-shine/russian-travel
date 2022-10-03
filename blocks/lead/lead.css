@@ -1,5 +1,4 @@
 .lead {
-  /* width: 76.9%; */
   width: 100%;
   max-width: 984px;
   display: flex;
@@ -11,13 +10,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 90.6%;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    width: 100%;
     margin: 0;
   }
 }
